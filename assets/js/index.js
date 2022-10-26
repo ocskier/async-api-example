@@ -31,10 +31,11 @@ const getDogPics = (breed) => {
       console.log('Printed all pics to DOM')
     })
     .catch((error) => {
-      // Alert the user for any network issues
+      // Alert for any network issues
       console.log(error);
     });
 }
 
+// Try changing the argument for breed passed into the function and refresh
 getDogPics('mastiff');
 console.log('Logging after async call!')
