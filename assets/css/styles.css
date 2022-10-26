@@ -1,0 +1,9 @@
+#pic-container {
+  min-height: calc(100vh - 120px);
+}
+
+.pet-pic {
+  align-self: center;
+  object-fit: cover;
+  margin: 1rem 0;
+}
